@@ -1,0 +1,39 @@
+.section3 td{
+	margin-top: 100px;
+	color: black;
+	font-size: 50px;
+	font-family: Timesnewroman;
+}
+
+.section3 table{
+	margin-top: 100px;
+	margin-left: 200px;
+
+}
+
+.section3 table tr td iframe{
+	margin-left: 350px;
+	margin-right: 130px;
+	margin-bottom: 10px;
+	width: 350px;
+	height:200px;
+}
+
+
+.section3 table tr td p{
+	font-size:22px;
+	font-family: monospace;
+	margin-top: 30px;
+	word-spacing: 2px;
+	line-height: 40px;
+	margin-right: 160px;
+	text-align: justify;
+	margin-bottom: 150px;
+}
+
+.section3 table tr td{
+
+} 
+body{
+	background-color: white;
+}

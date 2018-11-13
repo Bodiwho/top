@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	padding-top: 0;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(https://cystack.net/wp-content/uploads/2018/03/program.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	position: relative;
+
+
+
+	
+}
+
+
+.main-nav li{
+	display: inline-block;
+	font-size: 16px;
+
+	
+}
+.main-nav li a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Trebuchet MS"
+	
+}
+
+.main-nav li.active a{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+
+
+
+
+body{
+	font-family: monospace;
+}
+
+.row{
+	max-width: 1200px;
+	margin: auto;
+}
+.good{
+	position: absolute;
+	width: 1200px;
+	left: 118px;
+	height: 1px;
+	top: 70px;
+
+
+}
+.good h1{
+	color: white;
+	text-transform: uppercase;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 240px;
+	text-shadow: 1px 2px black;
+	font-family: Bell MT;
+	
+}
+
+
+.main-nav ul{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	display: none;
+
+}
+
+
+.main-nav li:hover ul{
+	display: block;
+	
+	
+
+}
+
+.drop li{
+	display: block;
+	right: 0px;
+	left: 90px;
+	position: relative;
+	padding-top: 17px;
+	
+}
+
+.faq h1{
+	color: black;
+	margin-top: 10px;
+	font-size: 100px;
+		font-family: Bell MT;
+
+}
+
+.w3-container{
+	margin-bottom: 30px;
+}
+
+.w3-container button{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: monospace;
+
+}
+
+.w3-hide,
+.w3-container p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: cursive;
+
+}

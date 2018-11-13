@@ -1,0 +1,116 @@
+
+
+.media ul{
+	position: absolute;
+	left: 700px;
+	margin:0;
+	padding:0;
+	transform: translate(-50%,-50%);
+	top: 500px;
+
+	display: flex;
+}
+.media ul li{
+	list-style: none;
+
+}
+.media ul li a{
+	display: block;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	margin: 0 30px;
+	transition: .5s;
+
+}
+.media ul li a span{
+	position: absolute;
+	transition: transform .5s;
+
+
+}
+
+.media ul li a span:nth-child(1),
+.media ul li a span:nth-child(3)
+{
+	 width: 100%;
+	 height: 1px;
+	 background: white;
+}
+.media ul li a span:nth-child(1)
+{
+	top: 0;
+	left: 0;
+	transform-origin: right;
+}
+.media ul li a:hover span:nth-child(1)
+{
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform .5s;
+}
+
+.media ul li a span:nth-child(3)
+{
+	bottom: 0;
+	left: 0;
+	transform-origin: left;
+}
+.media ul li a:hover span:nth-child(3)
+{
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform .5s;
+}
+
+
+
+
+
+
+.media ul li a span:nth-child(2),
+.media ul li a span:nth-child(4)
+{
+	 width: 1px;
+	 height: 100%;
+	 background: white;
+}
+.media ul li a span:nth-child(2)
+{
+	top: 0;
+	left: 0;
+	transform: scaleY(0);
+	transform-origin: bottom;
+}
+.media ul li a:hover span:nth-child(2)
+{
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: transform .5s;
+}
+.media ul li a span:nth-child(4)
+{
+	top: 0;
+	right: 0;
+	transform: scaleY(0);
+	transform-origin: top;
+}
+.media ul li a:hover span:nth-child(4)
+{
+	transform: scaleY(1);
+	transform-origin: bottom;
+	transition: transform .5s;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.section4 td{
+	margin-top: 100px;
+	color: black;
+	font-size: 50px;
+	font-family: Timesnewroman;
+}
+
+.section4 table{
+	margin-top: 100px;
+	margin-left: 200px;
+
+}
+
+.section4 table tr td img{
+	margin-left: 350px;
+	margin-right: 200px;
+	margin-bottom: 10px;
+	width: 150px;
+	height: 160px;
+}
+
+
+.section4 table tr td p{
+	font-size:22px;
+	font-family: monospace;
+	margin-top: 30px;
+	word-spacing: 2px;
+	line-height: 40px;
+	margin-right: 180px;
+	text-align: justify;
+	margin-bottom: 150px;
+}
+
+.section4 table tr td{
+
+} 
